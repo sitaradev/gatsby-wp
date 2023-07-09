@@ -1,33 +1,39 @@
 import React from "react";
 import { Helmet } from "react-helmet"
+import { Script } from "gatsby"
 
 const Layout = ({children, element, ...props}) => {
     return (
         <>
             <Helmet>
-                <link rel="stylesheet" id="sbi_styles-css"
+                <Script src='https://tgibfnov2022.click/wp-includes/js/jquery/jquery.min.js?ver=3.6.4' id='jquery-core-js'></Script>
+                <Script src='https://tgibfnov2022.click/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'></Script>
+                <Script src='https://tgibfnov2022.click/wp-content/plugins/ajax-load-more-anything/assets/js/scripts.js?ver=3.3.1' id='ald-scripts-js'></Script>
+                <Script src='https://tgibfnov2022.click/wp-content/plugins/unlimited-elementor-inner-sections-by-boomdevs/public/js/euis-public.js?ver=1.0.0' id='euis-js'></Script>
+
+                <link rel="preload" as="style" id="sbi_styles-css"
                     href="https://tgibfnov2022.click/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.1.5"
                     media="all" />
-                <link rel="stylesheet" id="wp-block-library-css"
+                <link rel="preload" as="style" id="wp-block-library-css"
                     href="https://tgibfnov2022.click/wp-includes/css/dist/block-library/style.min.css?ver=6.2.2" media="all" />
-                <link rel="stylesheet" id="classic-theme-styles-css"
+                <link rel="preload" as="style" id="classic-theme-styles-css"
                     href="https://tgibfnov2022.click/wp-includes/css/classic-themes.min.css?ver=6.2.2" media="all" />
-                <link rel="stylesheet" id="euis-css"
+                <link rel="preload" as="style" id="euis-css"
                     href="https://tgibfnov2022.click/wp-content/plugins/unlimited-elementor-inner-sections-by-boomdevs/public/css/euis-public.css?ver=1.0.0"
                     media="all" />
-                <link rel="stylesheet" id="child-style-css"
+                <link rel="preload" as="style" id="child-style-css"
                     href="https://tgibfnov2022.click/wp-content/themes/oceanwp-child-theme-master/style.css?ver=6.2.2" media="all" />
-                <link rel="stylesheet" id="simple-line-icons-css"
+                <link rel="preload" as="style" id="simple-line-icons-css"
                     href="https://tgibfnov2022.click/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0"
                     media="all" />
-                <link rel="stylesheet" id="swiper-css"
+                <link rel="preload" as="style" id="swiper-css"
                     href="https://tgibfnov2022.click/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
                     media="all" />
-                <link rel="stylesheet" id="oe-widgets-style-css"
+                <link rel="preload" as="style" id="oe-widgets-style-css"
                     href="https://tgibfnov2022.click/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=6.2.2" media="all" />
-                <link rel="stylesheet" id="oe-widgets-style-css"
+                <link rel="preload" as="style" id="oe-widgets-style-css"
                     href="https://tgibfnov2022.click/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=6.2.2" media="all" />
-                <link rel="stylesheet" id="sbi_styles-css"
+                <link rel="preload" as="style" id="sbi_styles-css"
                     href="https://tgibfnov2022.click/wp-content/themes/oceanwp/assets/css/style.min.css?ver=1.0"
                     media="all" />
 
@@ -56,11 +62,7 @@ const Layout = ({children, element, ...props}) => {
 
                 
                 
-                <script src='https://tgibfnov2022.click/wp-includes/js/jquery/jquery.min.js?ver=3.6.4' id='jquery-core-js'></script>
-                <script src='https://tgibfnov2022.click/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'></script>
-                <script src='https://tgibfnov2022.click/wp-content/plugins/ajax-load-more-anything/assets/js/scripts.js?ver=3.3.1' id='ald-scripts-js'></script>
-                <script src='https://tgibfnov2022.click/wp-content/plugins/unlimited-elementor-inner-sections-by-boomdevs/public/js/euis-public.js?ver=1.0.0' id='euis-js'></script>
-
+             
             </Helmet>
             <div>
             {element}

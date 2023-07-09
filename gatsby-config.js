@@ -19,7 +19,7 @@ module.exports = {
         allow401Images: true
       },
       schema: {
-        perPage: 10,
+        perPage: 2,
         timeout: 600000000
       }
     }
