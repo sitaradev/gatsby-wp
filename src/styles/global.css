@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://tgibfnov2022.click/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.1.5");
+@import url("./sbi-styles.min.css");
+/* @import url("https://tgibfnov2022.click/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.1.5"); */
 @import url("https://tgibfnov2022.click/wp-includes/css/dist/block-library/style.min.css?ver=6.2.2");
 @import url("https://tgibfnov2022.click/wp-includes/css/classic-themes.min.css?ver=6.2.2");
 @import url("https://tgibfnov2022.click/wp-content/plugins/unlimited-elementor-inner-sections-by-boomdevs/public/css/euis-public.css?ver=1.0.0");
