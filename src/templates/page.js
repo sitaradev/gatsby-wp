@@ -1,8 +1,11 @@
 import * as React from "react";
 import { Helmet } from "react-helmet"
+import { Script } from "gatsby";
 
 export default function Page({ pageContext }) {
   const { title, html, pageId, guid } = pageContext
+
+
   return (
   <>
     <Helmet>
@@ -10,6 +13,7 @@ export default function Page({ pageContext }) {
       <link rel="stylesheet" id="sbi_styles-css"
           href={`https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-${pageId}.css?ver=1688445856`}
           media="all" />
+     
       </Helmet>
       <div id="outer-wrap" className="site clr">
         <div id="wrap">
@@ -18,7 +22,7 @@ export default function Page({ pageContext }) {
             className="site-main clr" 
             role="main"
             dangerouslySetInnerHTML={{
-              __html: html,
+              __html: html
             }}
           >
           </main>
