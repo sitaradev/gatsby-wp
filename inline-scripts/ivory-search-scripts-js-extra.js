@@ -1,0 +1,1 @@
+var IvorySearchVars = {"is_analytics_enabled":"1"};

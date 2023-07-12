@@ -9,8 +9,8 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
+    "start": "mkdir -p public && cp -r ./inline-scripts public && gatsby develop",
+    "build": "mkdir -p public && cp -r ./inline-scripts public && gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
