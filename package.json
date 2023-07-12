@@ -9,13 +9,14 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
+    "start": "node setup-post-css.js && gatsby develop",
+    "build": "node setup-post-css.js && gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
   "dependencies": {
     "autoprefixer": "^10.4.14",
+    "extract-urls": "^1.3.4",
     "gatsby": "^5.11.0",
     "gatsby-plugin-image": "^3.11.0",
     "gatsby-plugin-netlify": "^5.1.0",

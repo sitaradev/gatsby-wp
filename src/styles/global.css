@@ -1,40 +1,43 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@import url("./sbi-styles.min.css");
-@import url("./style.min.css");
-@import url("./classic-themes.min.css");
-@import url("./style.css");
-@import url("./simple-line-icons.min.css");
-@import url("./swiper.min.css");
-@import url("./style2.css");
-@import url("./content.css");
-@import url("./header-style.css");
-@import url("./custom-frontend-lite.min.css");
-@import url("./fa.all.min.css");
-@import url("./ivory-search.min.css");
-@import url("./oceanwp-webfonts-css.css");
-@import url("./elementor-icons.min.css");
-@import url("./custom-pro-frontend-lite.min.css");
-@import url("./widgets.css");
-@import url("./post-38303.css");
-@import url("./post-38164.css");
-
-@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-52176.css?ver=1688736370");
-@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-38.css?ver=1688750686");
-/* @import url("https://tgibfnov2022.click/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.1.5"); */
-/* @import url("https://tgibfnov2022.click/wp-includes/css/dist/block-library/style.min.css?ver=6.2.2"); */
-/* @import url("https://tgibfnov2022.click/wp-includes/css/classic-themes.min.css?ver=6.2.2"); */
-/* @import url("https://tgibfnov2022.click/wp-content/themes/oceanwp-child-theme-master/style.css?ver=6.2.2"); */
-/* @import url("https://tgibfnov2022.click/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0"); */
-/* @import url("https://tgibfnov2022.click/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"); */
-/* @import url("https://tgibfnov2022.click/wp-content/themes/oceanwp/assets/css/style.min.css?ver=1.0"); */
-/* @import url("https://tgibfnov2022.click/wp-content/themes/oceanwp-child-theme-master/css/content.css?ver=6.2.2"); */
-/* @import url("https://tgibfnov2022.click/wp-content/themes/oceanwp-child-theme-master/css/header-style.css?ver=6.2.2"); */
-/* @import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/custom-frontend-lite.min.css?ver=1688107746"); */
-/* @import url("https://tgibfnov2022.click/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=5.15.1"); */
-/* @import url("https://tgibfnov2022.click/wp-content/plugins/add-search-to-menu/public/css/ivory-search.min.css?ver=5.5.1"); */
-/* @import url("https://tgibfnov2022.click/wp-content/uploads/oceanwp-webfonts-css/c60a07be40ef8f258a248a492dd87245.css?ver=6.2.2"); */
-/* @import url("https://tgibfnov2022.click/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0"); */
-/* @import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/custom-pro-frontend-lite.min.css?ver=1688107746"); */
-/* @import url("https://tgibfnov2022.click/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=6.2.2"); */
+@import url("https://tgibfnov2022.click/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.1.5'");
+@import url("https://tgibfnov2022.click/wp-includes/css/dist/block-library/style.min.css?ver=6.2.2'");
+@import url("https://tgibfnov2022.click/wp-includes/css/classic-themes.min.css?ver=6.2.2'");
+@import url("https://tgibfnov2022.click/wp-content/plugins/ajax-load-more-anything/assets/css/styles.css?ver=3.3.1'");
+@import url("https://tgibfnov2022.click/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.7'");
+@import url("https://tgibfnov2022.click/wp-content/plugins/add-search-to-menu/public/css/ivory-search.min.css?ver=5.5.2'");
+@import url("https://tgibfnov2022.click/wp-content/plugins/unlimited-elementor-inner-sections-by-boomdevs/public/css/euis-public.css?ver=1.0.0'");
+@import url("https://tgibfnov2022.click/wp-content/themes/oceanwp/assets/css/style.min.css?ver=1.0'");
+@import url("https://tgibfnov2022.click/wp-content/themes/oceanwp-child-theme-master/style.css?ver=6.2.2'");
+@import url("https://tgibfnov2022.click/wp-content/themes/oceanwp-child-theme-master/css/content.css?ver=6.2.2'");
+@import url("https://tgibfnov2022.click/wp-content/themes/oceanwp-child-theme-master/css/header-style.css?ver=6.2.2'");
+@import url("https://tgibfnov2022.click/wp-content/themes/oceanwp-child-theme-master/css/owl.carousel.min.css?ver=6.2.2'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/custom-frontend-lite.min.css?ver=1688728691'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-38303.css?ver=1688728691'");
+@import url("https://tgibfnov2022.click/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=5.15.1'");
+@import url("https://tgibfnov2022.click/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/oceanwp-webfonts-css/c60a07be40ef8f258a248a492dd87245.css?ver=6.2.2'");
+@import url("https://tgibfnov2022.click/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0'");
+@import url("https://tgibfnov2022.click/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-38164.css?ver=1688728691'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/custom-pro-frontend-lite.min.css?ver=1688728691'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/global.css?ver=1688728692'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-56343.css?ver=1688729072'");
+@import url("https://tgibfnov2022.click/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=6.2.2'");
+@import url("https://tgibfnov2022.click/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3'");
+@import url("https://tgibfnov2022.click/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3'");
+@import url("https://tgibfnov2022.click/wp-content/plugins/elementor-pro/assets/css/widget-theme-elements.min.css");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css?ver=1688728696");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-52176.css?ver=1688736370'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-55558.css?ver=1688800529'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-55273.css?ver=1688728701'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-55224.css?ver=1688728701'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-55264.css?ver=1688728701'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-50809.css?ver=1688736379'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-48679.css?ver=1688736644'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-48387.css?ver=1688734203'");
+@import url("https://tgibfnov2022.click/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-44677.css?ver=1688736388'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-43351.css?ver=1688736390'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-43265.css?ver=1688736394'");
+@import url("https://tgibfnov2022.click/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.14.1'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-41303.css?ver=1688736400'");
+@import url("https://tgibfnov2022.click/wp-content/uploads/elementor/css/post-40446.css?ver=1688736404'");
