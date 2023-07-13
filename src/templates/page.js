@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Helmet } from "react-helmet"
-import { Script, link } from "gatsby";
+// import { script, link } from "gatsby";
 
 
 export default function Page({ pageContext }) {
@@ -9,7 +9,7 @@ export default function Page({ pageContext }) {
   
   return (
   <>
-  <Helmet>
+    <Helmet>
       <title>{title}</title>
 
       <link rel="preload" as="style" onload="this.rel='stylesheet'"  id="sbi_styles-css"

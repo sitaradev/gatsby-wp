@@ -33,19 +33,14 @@ const addExternalScript = (urls, idx = 0, cb) => {
 }
   
 const scrtpts = [
-    "https://tgibfnov2022.click/wp-includes/js/jquery/jquery.min.js?ver=3.6.4",
-    "https://tgibfnov2022.click/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.7.7",
-    "https://tgibfnov2022.click/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1",
-    "https://tgibfnov2022.click/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1",
-    "./inline-scripts/elementor-frontend-js-before.js",
-    "https://tgibfnov2022.click/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1",
-    "https://tgibfnov2022.click/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0",
-    "https://tgibfnov2022.click/wp-content/plugins/unlimited-elementor-inner-sections-by-boomdevs/public/js/euis-public.js?ver=1.0.0",
-    "https://tgibfnov2022.click/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.14.1",
-    "./inline-scripts/local.js",
-    "https://tgibfnov2022.click/wp-content/themes/oceanwp-child-theme-master/js/owl.carousel.min.js",
-    "./inline-scripts/owl.js",
-  ]
+  "./inline-scripts/jquery.min.js",
+  "./inline-scripts/webpack.runtime.min.js",
+  "./inline-scripts/frontend-modules.min.js",
+  "./inline-scripts/elementor-frontend-js-before.js",
+  "./inline-scripts/frontend.min.js",
+  "./inline-scripts/owl.min.js",
+  "./inline-scripts/owl.js",
+]
   
 addExternalScript(scrtpts)
 
