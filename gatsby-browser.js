@@ -34,27 +34,18 @@ const addExternalScript = (urls, idx = 0, cb) => {
   
 const scrtpts = [
     "https://tgibfnov2022.click/wp-includes/js/jquery/jquery.min.js?ver=3.6.4",
+    "https://tgibfnov2022.click/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.7.7",
+    "https://tgibfnov2022.click/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1",
+    "https://tgibfnov2022.click/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1",
+    "./inline-scripts/elementor-frontend-js-before.js",
+    "https://tgibfnov2022.click/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1",
     "https://tgibfnov2022.click/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0",
     "https://tgibfnov2022.click/wp-content/plugins/unlimited-elementor-inner-sections-by-boomdevs/public/js/euis-public.js?ver=1.0.0",
     "https://tgibfnov2022.click/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.14.1",
     "./inline-scripts/local.js",
     "https://tgibfnov2022.click/wp-content/themes/oceanwp-child-theme-master/js/owl.carousel.min.js",
     "./inline-scripts/owl.js",
-    // "https://tgibfnov2022.click/wp-includes/js/imagesloaded.min.js?ver=4.1.4",
-    // "./inline-scripts/oceanwp-main-js-extra.js",
-    // "https://tgibfnov2022.click/wp-content/themes/oceanwp/assets/js/theme.min.js?ver=1.0",
-    // "https://tgibfnov2022.click/wp-content/themes/oceanwp/assets/js/drop-down-mobile-menu.min.js?ver=1.0",
-    // "https://tgibfnov2022.click/wp-content/themes/oceanwp/assets/js/vendors/magnific-popup.min.js?ver=1.0",
-    // "https://tgibfnov2022.click/wp-content/themes/oceanwp/assets/js/ow-lightbox.min.js?ver=1.0",
-    // "https://tgibfnov2022.click/wp-content/themes/oceanwp/assets/js/ow-slider.min.js?ver=1.0",
-    // "https://tgibfnov2022.click/wp-content/themes/oceanwp/assets/js/scroll-effect.min.js?ver=1.0",
-    // "https://tgibfnov2022.click/wp-content/themes/oceanwp/assets/js/scroll-top.min.js?ver=1.0",
-    // "https://tgibfnov2022.click/wp-content/themes/oceanwp/assets/js/select.min.js?ver=1.0",
-    // "./inline-scripts/ivory-search-scripts-js-extra.js",
-    // "https://tgibfnov2022.click/wp-content/plugins/add-search-to-menu/public/js/ivory-search.min.js?ver=5.5.2",
-    // "https://tgibfnov2022.click/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.14.1",
-    // "https://tgibfnov2022.click/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
-]
+  ]
   
 addExternalScript(scrtpts)
 
