@@ -45,11 +45,13 @@ export default function Page({ pageContext }) {
   const { title, html, pageId, guid, id } = pageContext
   const [load, setLoad] = React.useState(false)
 
-  addExternalScript(scrtpts, 0, () => {
-    setTimeout(() => {
-      setLoad(true)
-    },10)
-  })
+  if(typeof window !== 'undefined'){
+    addExternalScript(scrtpts, 0, () => {
+      setTimeout(() => {
+        setLoad(true)
+      },10)
+    })
+  }
  
   return (
   <>
