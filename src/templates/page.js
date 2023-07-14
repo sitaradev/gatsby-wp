@@ -16,7 +16,7 @@ const addExternalScript = (urls, idx = 0, cb) => {
       console.log("loading : ", urls[idx])
       let i = idx
       const script = document.createElement('script');
-      script.src = urls[idx];
+      script.src = window.location.origin + urls[idx];
       script.async=true;
       script.onload = ()=> addExternalScript(urls, i+1, cb);
       script.onerror = () => console.log("failed to load : ", urls[idx])
@@ -32,13 +32,13 @@ const addExternalScript = (urls, idx = 0, cb) => {
 }
 
 const scrtpts = [
-"./inline-scripts/jquery.min.js",
-"./inline-scripts/webpack.runtime.min.js",
-"./inline-scripts/frontend-modules.min.js",
-"./inline-scripts/elementor-frontend-js-before.js",
-"./inline-scripts/frontend.min.js",
-"./inline-scripts/owl.min.js",
-"./inline-scripts/owl.js",
+"/inline-scripts/jquery.min.js",
+"/inline-scripts/webpack.runtime.min.js",
+"/inline-scripts/frontend-modules.min.js",
+"/inline-scripts/elementor-frontend-js-before.js",
+"/inline-scripts/frontend.min.js",
+"/inline-scripts/owl.min.js",
+"/inline-scripts/owl.js",
 ]
 
 export default function Page({ pageContext }) {
@@ -52,7 +52,8 @@ export default function Page({ pageContext }) {
       },10)
     })
   }
- 
+
+
   return (
   <>
     <Helmet>
